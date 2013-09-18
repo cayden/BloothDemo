@@ -21,6 +21,7 @@ public class MainActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
+        
         main_img=(TextView)findViewById(R.id.main_img);
         
         main_img.setOnClickListener(this);
